@@ -1,0 +1,538 @@
+@font-face {
+    font-family: Lemonjuice;
+    src: local(Lemonjuice),
+         url("css/fonts/Lemonjuice.ttf") format("ttf"),
+    font-weight: normal;
+}
+
+ul {
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #000;
+}
+
+.overlay {
+    background: url("../images/overlay.png") no-repeat center 25px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.home {
+    background: #150025;
+    position: relative;
+    top: 15em;
+}
+
+.promo {
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /*max-width: 1080px;*/
+    max-width: 965px;
+    margin: 0 auto;
+}
+
+.container_content {
+    margin: 0 auto;
+    max-width: 750px;
+}
+
+.main-logo {
+    background: #150025;
+    padding-top: 90px;
+}
+
+.logo_proryv {
+    width: 700px;
+    margin-bottom: 105px;
+}
+
+.line-wide {
+    background: linear-gradient(90deg, #FF0844 18.54%, rgba(255, 8, 68, 0) 90.75%);
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.line-narrow {
+    background: linear-gradient(90deg, #FF0844 18.54%, rgba(255, 8, 68, 0) 90.75%);
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+.text-line {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.heading-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49px;
+    line-height: 117px;
+    color: #FFFFFF;
+    margin-bottom: 53px;
+    text-transform: uppercase;
+}
+
+.section-cards {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 62px;
+}
+
+.card {
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 12px;
+    transition: transform 1.0s ease;
+    margin-right: 35px;
+}
+
+.card img {
+    height: 100px;
+    border-radius: 12px;
+    padding: 29px 34px;
+}
+
+.card-info {
+    width: 100%;
+}
+
+.page-image {
+    position: relative;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-title {
+    background: linear-gradient(90deg, #FF0844 0%, rgb(21 0 37) 98.35%);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 6px;
+    padding-left: 14px;
+}
+
+.card-text {
+    background: #FFFFFF;
+    border-radius: 0px 0px 12px 12px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 12px;
+    color: #5222D0;
+    padding: 6px;
+    padding-left: 14px;
+    text-transform: uppercase;
+}
+
+.team-plan {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    color: #FFFFFF;
+    padding-top: 62px;
+    padding-bottom: 62px;
+    background: #150025;
+}
+
+.team-plan p {
+    margin: 0;
+}
+
+.industriya-logo {
+    margin-bottom: 56px;
+}
+
+/* */
+
+.consist {
+    background: #150025;
+    padding-top: 50px;
+}
+
+/* */
+
+.decision {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.subtitle {
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 60px;
+    color: #150025;
+}
+
+.line-section {
+    background: linear-gradient(90deg, #FF0844 0%, rgb(21 0 37) 98.35%);
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 46px;
+    color: #FFFFFF;
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+
+/* */
+
+.templates {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.artMenuLogo {
+    margin-bottom: 50px;
+}
+
+.artMenuCard img {
+    margin-right: 65px;
+}
+
+.artMenuCard img:last-child {
+    margin-right: 0;
+}
+
+/* */
+
+.schemes {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+/* */
+
+.mobile-design {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+/* */
+
+.designer-tools {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+/* */
+
+.block-design {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+.design-block {
+    display: flex;
+}
+
+.design-info {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #150025;
+    margin-right: 65px;
+}
+
+.design-info:last-child {
+    margin-right: 0;
+}
+
+.color-letter {
+    color: #006AFF;
+}
+
+.point-red {
+    color: #FD0743;
+}
+
+/* */
+
+.designer-video {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #fff;
+}
+
+.subtitle-video {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+    margin-left: 48px;
+}
+
+.video-content {
+    display: flex;
+    align-items: end;
+}
+
+.items-content {
+    display: flex;
+}
+
+.items-info {
+    margin-left: 5px;
+}
+
+.items-text {
+    margin-bottom: 65px;
+    display: flex;
+}
+
+.schema-image {
+    margin-right: 60px;
+}
+
+.items-text:last-child {
+    margin-bottom: 0;
+}
+
+.items-text-blue {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #006AFF;
+    margin: 0;
+}
+
+.items-text-red {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 46px;
+    color: #FF0844;
+    margin: 0;
+}
+
+.case-team {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-bottom: 25px;
+}
+
+.case-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.liner {
+    text-align: center;
+    background: #5F00D9;
+    max-width: 50px;
+    border-radius: 0px 50px 50px 0px;
+    font-size: 25px;
+    padding: 20px 56px;
+    color: #fff;
+    font-family: Lemonjuice, sans-serif;
+}
+
+.case-team p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 46px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.case-problem {
+    margin-top: 60px;
+}
+
+.play-video {
+    display: flex;
+    justify-content: center;
+}
+
+.play-video img:hover {
+    transform: scale(1.1);
+}
+
+.video-present {
+    background-color: rgb(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.video-content {
+    position: relative;
+    z-index: 1;
+    bottom: 6em;
+    display: none;
+    justify-content: center;
+}
+
+.close-video {
+    position: relative;
+    bottom: 5px;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+    color: #fff;
+    font-size: 16px;
+    left: 6%;
+}
+
+.technology {
+    margin-bottom: 25px;
+}
+
+.monetization {
+    background: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.monetization-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.monetization-img {
+    margin-right: 28px;
+}
+
+.monetization-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 49px;
+    line-height: 60px;
+    color: #006AFF;
+    margin: 0;
+}
+
+.monetization-info li {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 46px;
+    color: #000000;
+
+}
+
+.end-present {
+    padding-top: 84px;
+    height: 421px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+.end-present-title {
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 50px;
+    letter-spacing: 0.33em;
+    color: #FFFFFF;
+}
+
+/* */
+
+.technology {
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.logo-tech {
+    display: flex;
+    align-items: center;
+    margin-bottom: 42px;
+}
+
+.tech-img {
+    margin-right: 32px;
+}
+
+.tech-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 49px;
+    line-height: 60px;
+    color: #FB3669;
+}
+
+.tech-info {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.art-menu__block {
+    background: #fff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.art-menu-cards {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 90px;
+}
+
+.art-menu-card {
+    text-align: center;
+    margin-right: 40px;
+}
+
+.art-menu-card:last-child {
+    margin-right: 0;
+}
+
+.art-menu-img {
+    margin-bottom: 10px;
+}
+
+.art-menu__text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 11px;
+    color: #150025;
+}
